@@ -13,3 +13,7 @@ Route::get('/product-inventory', function () {
 Route::get('/pos-terminal', function () {
     return view('pages.posTerminal');
 })->name('posTerminal');
+
+Route::get('/customers', function () {
+    return view('pages.customers');
+})->name('customers');
