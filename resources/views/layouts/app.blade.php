@@ -10,22 +10,22 @@
 <body class="bg-gray-100 font-sans antialiased">
 
     <div class="flex h-screen overflow-hidden">
-        <aside class="w-64 bg-slate-900 text-slate-300 flex-shrink-0 hidden md:flex flex-col">
+        <aside class="w-64 bg-slate-900 text-slate-300 shrink-0 hidden md:flex flex-col">
             <div class="p-6 text-white text-2xl font-bold border-b border-slate-800">
                 <span class="text-indigo-400">IMS</span>Pro
             </div>
             
             <nav class="flex-1 overflow-y-auto py-4 px-3 space-y-1">
-                <a href="#" class="flex items-center px-4 py-3 rounded-lg bg-indigo-600 text-white group">
+                <a href="/" class="flex items-center px-4 py-3 rounded-lg bg-indigo-600 text-white group">
                     <i class="fa-solid fa-gauge w-5 mr-3"></i> Dashboard
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
+                <a href="/product-inventory" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
                     <i class="fa-solid fa-box w-5 mr-3"></i> Inventory
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
+                <a href="/pos-terminal" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
                     <i class="fa-solid fa-cart-shopping w-5 mr-3"></i> POS Terminal
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
+                <a href="/customers" class="flex items-center px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-white transition group">
                     <i class="fa-solid fa-users w-5 mr-3"></i> Customers
                 </a>
             </nav>
